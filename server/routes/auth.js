@@ -1,8 +1,6 @@
-require('../contollers/googleAuthController');
-
-const passport = require('passport');
 const { Router } = require('express');
-const { isLoggedIn } = require('../utils/utils');
+const { isLoggedIn } = require('../utils');
+const passport = require('passport');
 
 const router = Router();
 

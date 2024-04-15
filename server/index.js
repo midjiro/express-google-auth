@@ -3,8 +3,15 @@ const session = require('express-session');
 const mongoose = require('mongoose');
 const passport = require('passport');
 const cors = require('cors');
-const { sessionSecret, port, connectionString } = require('../config/config');
+const {
+    sessionSecret,
+    port,
+    connectionString,
+    clientID,
+    clientSecret,
+} = require('./config');
 const { authRouter } = require('./routes/auth');
+const { initPassport } = require('./config');
 
 const app = express();
 
@@ -21,6 +28,7 @@ app.use(
 );
 app.use(passport.session());
 app.use(passport.initialize());
+initPassport(clientID, clientSecret);
 
 // * Routing
 app.use('/auth', authRouter);
