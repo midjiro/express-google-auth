@@ -1,25 +1,29 @@
 # Express Google Authentication
 
-Is an example implementation of google authentication with express.js and passport.js
+![](images/screenshots/desktop-1.png)
+![](images/screenshots/desktop-2.png)
 
-## Author
+## Technologies
 
-Hulak Mykhailo
+![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=React&logoColor=61DAFB)
+![](https://img.shields.io/badge/Express-20232A?style=for-the-badge&logo=Express&logoColor=ffffff)
+![](https://img.shields.io/badge/MongoDB-20232A?style=for-the-badge&logo=MongoDB&logoColor=47A248)
+![](https://img.shields.io/badge/GCP-20232A?style=for-the-badge&logo=googlecloud&logoColor=4285F4)
 
-[Send me an email](miha.gulak@gmail.com)
+## Description
 
-[Find me on telegram](https://t.me/@midjiro)
+Fullstack app to showcase how google auth can be done with Passport backend library.
 
-## Getting Started
+## Installation
 
-1.  Create a new project on google cloud platform
-1.  Follow [this](https://youtu.be/TKnnrGU9MFw?si=RUbJ3RjKTFT7n3eR) tutorial to setup a consent screen, grab your credentials
-1.  Create a new cluster at [mongodb](https://www.mongodb.com/) and copy a connection string
-1.  Clone repo with
+-   Create a new project on google cloud platform
+-   Follow [this](https://youtu.be/TKnnrGU9MFw?si=RUbJ3RjKTFT7n3eR) tutorial to setup a consent screen, grab your credentials
+-   Create a new cluster at [mongodb](https://www.mongodb.com/) and copy a connection string
+-   Clone repo with
 
 `git clone https://github.com/midjiro/express-google-auth.git`
 
-1.  Create a default.json file inside of server/config folder with the following code
+-   Create a default.json file inside of server/config folder with the following code
 
 ```
     {
@@ -31,8 +35,20 @@ Hulak Mykhailo
     }
 ```
 
-1.  Replace dots by copied data,your session secret key and mongodb connection string.
+-   Replace dots by copied data,your session secret key and mongodb connection string.
 
-1.  Run `npm install` both in client and server directories
+-   Run `npm install` both in client and server directories
 
-1.  Now you are ready to run the project. Happy hacking!
+-   You are ready to start!
+
+## Contact
+
+Hulak Mykhailo
+
+[Send me an email](miha.gulak@gmail.com)
+
+[Find me on telegram](https://t.me/@midjiro)
+
+## Feature Development & Support
+
+While working with new project i faced and passed through a lot of obstacles so there are a lot of stuff do be added here.
